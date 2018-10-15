@@ -1,0 +1,42 @@
+/*
+ Theme Name:     Divi Child
+ Description:    Divi Child Theme
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+@media (min-width: 981px;) {
+	all, .et_vertical_nav #page-container #main-header {
+		width: 300px !important;
+	}
+
+	.et_vertical_nav #et-main-area, .et_vertical_nav #top-header {
+		margin-left: 300px !important;
+	}
+}
+
+/* ------------------------------------------ */
+/* ---------------- NAV STYLE --------------- */
+/* ------------------------------------------ */
+#top-menu li li {
+	padding: 0 10px !important;
+}
+
+.et_mobile_menu {
+	border-top: 3px solid #000;
+}
+
+#top-menu li li a {
+	font-size: 12px;
+	line-height: 115%;
+	padding: 5px 10px !important;
+}
+
+.et_vertical_nav #page-container #main-header {
+		border-right: solid 1px #CCC;
+	}
+
